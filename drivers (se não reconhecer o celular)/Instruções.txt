@@ -1,0 +1,8 @@
+﻿1.Ativar a depuração USB do celular
+2.Conectar o celular no computador
+3.Abrir o Programa ADBDriverInstaller
+4.Selecionar seu celular eclicar em install
+5.Ao finalizar a instalação remover o cabo e conectar novamente
+6.Permitir a depuração USB quando seu celular solicitar
+
+Veja nosso video: https://youtu.be/xmMofsQkdh4
