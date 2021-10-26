@@ -1,0 +1,233 @@
+QMainWindow  {
+    background-color: #3f4543;
+    margin: 0px;
+}
+
+QTreeView{
+    background-color: #3f4543;
+    color: white;
+}
+
+QTreeView::item:selected{background-color: #3f4543; color:white;}
+QTreeView::item:!selected{background-color: #3f4543; color:white;}
+QTreeView QHeaderView::section{background-color: #3f4543; color:white;}
+
+QGroupBox::title{
+    color: white;
+}
+
+QPlainTextEdit#logger{
+    border: 2px solid #535a57;
+    border-left: none;
+    background-color: #3f4543; 
+    color:white;
+    font-size: 10px;
+}
+
+QPlainTextEdit#loggerF{
+    border: 2px solid #535a57;
+    background-color: #3f4543; 
+    color:white;
+    font-size: 12px;
+}
+
+QLabel#url{
+    color: rgb(102, 102, 214);
+}
+
+QRadioButton{
+    color: white;
+}
+
+QRadioButton::indicator {
+    width:                  8px;
+    height:                 8px;
+    border-radius:          8px;
+    background-color:       black;
+    border:                 4px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 4px solid white;
+}
+
+
+QHBoxLayout{
+    margin: 0px;
+}
+
+QLabel{
+    color: white;
+}
+
+QLabel#infoLabel::hover{
+    background-color: #6fc2ff;
+}
+
+QLabel#infoLabel::pressed{
+    background-color: #0094ff;
+}
+
+QInputDialog QLabel{
+    color: black;
+}
+
+
+QLabel#bold{
+    font-weight: bold;
+}
+
+QToolButton#typeSelectCK{
+    border: 1px solid black;
+    background: #6783b8;
+    color: white;
+    width:82;
+    height:40;
+    border-radius: 2px;
+}
+
+QToolButton#typeSelectCK:disabled {
+    border: none;
+    background: #9fa0a1;
+    color: darkgrey;
+}
+
+QToolButton#typeSelectCK:checked{
+    background: #0094ff;
+}
+
+QToolButton#typeSelectCK:!checked:hover{
+    background: #6fc2ff;
+}
+
+QPushButton#buttonControl {
+    border: 1px solid black;
+    background: #6783b8;
+    border-radius: 2px;
+}
+
+QPushButton#statusMenu {
+    border: none;
+    background: #6783b8;
+    border-radius: 0px;
+}
+
+QPushButton#statusMenu::hover{
+    background: #6fc2ff;
+}
+
+QPushButton#statusMenu:pressed{
+    background: #0094ff;
+}
+
+QPushButton#buttonControl:disabled {
+    border: none;
+    background: #9fa0a1;
+    color: darkgrey;
+}
+
+QPushButton#validateButton {
+    background: #6783b8;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+QPushButton#validateButton:disabled {
+    border: none;
+    background: #9fa0a1;
+    color: darkgrey;
+}
+
+QPushButton::hover{
+    background: #6fc2ff;
+}
+
+QPushButton#buttonControl::hover{
+    background: #6fc2ff;
+}
+
+QPushButton#validateButton::hover{
+    background: #6fc2ff;
+}
+
+QPushButton:pressed{
+    background: #0094ff;
+}
+
+QPushButton#buttonControl:pressed{
+    background: #0094ff;
+}
+
+QPushButton#validateButton:pressed{
+    background: #0094ff;
+}
+
+QTabWidget QTabBar{
+background-color: #6783b8;
+width: 100px;
+}
+
+QTabWidget QTabBar::tab{
+background-color: #6783b8;
+width: 100px;
+color: #ffffff;
+}
+
+QTabWidget QTabBar::tab:selected{
+    background: #0094ff;
+width: 100px;
+}
+
+QTabWidget::pane {
+    border-left: 5px solid #535a57;
+    border-right: 5px solid #535a57;
+}
+
+QTabWidget QTabBar::tab:hover {
+    background: #6fc2ff;
+}
+
+QTabWidget#insideTab QTabBar{
+background-color: #556075;
+width: 150px;
+margin-top: 15px;
+}
+
+QTabWidget#insideTab QTabBar::tab{
+background: #535a57;
+color: white;
+width: 150px;
+padding: 5px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+QTabWidget#insideTab QTabBar::tab:selected{
+background: #0094ff;
+width: 150px;
+margin-top: 5px;
+}
+
+QTabWidget#insideTab QTabBar::tab:!selected{
+    margin-top: 10px;
+}
+
+QTabWidget#insideTab QTabBar::tab:disabled{
+    background-color: #9fa0a1;
+}
+
+QTabWidget#insideTab::pane {
+    border-top: 3px solid #535a57;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 2px;
+    margin:  0px;
+}
+
+QTabWidget#insideTab QTabBar::tab:hover {
+    background: #6fc2ff;
+}
